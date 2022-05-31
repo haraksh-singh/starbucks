@@ -39,11 +39,11 @@
   margin-top: 20px;
 }
 .main {
-  max-height: 100vh;
+  min-height: 100vh;
 }
 .main-child {
   flex-basis: 50%;
-  max-height: 100vh;
+  min-height: 100vh;
 }
 
 #content-heading {
@@ -81,7 +81,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  clip-path: circle(600px at right 760px);
+  clip-path: circle(660px at right 760px);
   /* z-index: -1; */
 }
 .coffee-img-container {
